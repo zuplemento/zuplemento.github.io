@@ -1,0 +1,61 @@
+body {
+    font-family: 'Montserrat', sans-serif;
+    color: rgba(255, 255, 255, 0.7);
+
+}
+
+h1,
+.h1 {
+    font-size: 3rem;
+}
+
+.pixelated {
+    image-rendering: pixelated;
+}
+
+
+.custom-card:hover {
+    color: #ffffff;
+    text-decoration: none;
+}
+
+.custom-card {
+    color: rgba(255, 255, 255, 0.7);
+    text-decoration: none;
+    margin:  0;
+    padding: 12px;
+}
+
+.min-width-0 {
+    min-width: 0;
+}
+
+.custom-card .image-zoom {
+    width: 64px;
+    height: 48px;
+    margin-right: 12px;
+
+}
+
+.custom-card .image-zoom img {
+    top: 0px;
+    left: 0px;
+    position: absolute;
+    z-index: 2;
+}
+
+.transition{
+    transition: all ease-in-out 0.15s;
+}
+
+.custom-card:hover .image-zoom img{
+    width: 128px;
+    height: 96px;
+    top: -24px;
+    left: -24px;
+}
+
+.custom-card:hover .image-zoom{
+    margin-right: 55px;
+}
+
